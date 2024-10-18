@@ -42,3 +42,5 @@ footer::after {
     display: table;
     clear: both;
 }
+body { font-family:'Arial'; }
+h1, h2 {color: green;}
