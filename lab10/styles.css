@@ -15,6 +15,16 @@ nav {
 nav {
     margin-bottom: 30px;
 }
+@media only screen and (min-width: 600px) {
+    nav a {
+        width: 100%;
+        display: block;
+    }
+    
+}
+    nav span {
+        display: none;
+    }
 .evenrow {background-color: yellow;}
 footer {
     background-color: #f1f1f1;
@@ -48,13 +58,3 @@ footer::after {
 .skillsimage {
     text-align: center;
 }
-@media only screen and (min-width: 600px) {
-    nav a {
-        width: 100%;
-        display: block;
-    }
-    
-}
-    nav span {
-        display: none;
-    }
