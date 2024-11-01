@@ -55,3 +55,6 @@ footer::after {
     }
     
 }
+    nav span {
+        display: none;
+    }
