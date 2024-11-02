@@ -31,7 +31,8 @@ nav a {
             width: 100px;
             padding: 10px 0;
             text-align: left;
-        }
+      }
+
 nav span {
         display: none;
     }
