@@ -15,8 +15,8 @@ nav {
 nav {
     margin-bottom: 30px;
 }
-@media only screen and (min-width: 600px) {
-    nav {
+@media only screen and (max-width: 600px) {
+    nav a {
         width: 100%;
         display: block;
     }
@@ -33,9 +33,7 @@ nav a {
             text-align: left;
       }
 
-nav span {
-        display: none;
-    }
+nav span ({display: none;}) 
 
 .evenrow {background-color: yellow;}
 footer {
