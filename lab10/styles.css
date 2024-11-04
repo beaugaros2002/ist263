@@ -20,7 +20,8 @@ nav {
         width: 100%;
         display: block;
     }
-    
+ 
+nav span ({display: none;})    
 }
 nav {
         display: flex;
@@ -33,7 +34,6 @@ nav a {
             text-align: left;
       }
 
-nav span ({display: none;}) 
 
 .evenrow {background-color: yellow;}
 footer {
