@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+</head>
+<body onload="helloword();">
+    <p onclick="goodbyeworld();">content goes here</p>
+    <a onmouseover="firstjs();" href="#">click to see a message</a>
+</body>
+<script>
+    function click() {
+        alert("Hello world!");
+    }
+    function hovery() {
+        alert("Hello Hoever!");
+    }
+    function firstjs() {
+        alert("My first javascript programm!");
+    }
+
+</script>
+  
+  
+
+</html>
