@@ -21,7 +21,7 @@ nav {
         display: block;
     }
  
-nav span ({display: none;})    
+nav span {display: none;}
 }
 nav {
         display: flex;
