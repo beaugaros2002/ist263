@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Text on Click</title>
+    <style>
+        #text {
+            color: black;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>Syracuse University</div>
+
+<p id="text" onclick="changeText()">Click me to change text and color</p>
+
+<script>
+    function changeText() {
+        const textElement = document.getElementById("text");
+        textElement.textContent = "Orange Nation";
+        textElement.style.color = "orange";
+    }
+</script>
+
+</body>
+</html>
