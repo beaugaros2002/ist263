@@ -1,7 +1,0 @@
-
-
-[id$="-photo"]:not(#mercury-photo),
-[id$="-text"]:not(#mercury-text) {
-    display: none;
-}
-
