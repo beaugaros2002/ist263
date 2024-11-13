@@ -1,14 +1,7 @@
 
-#venus-photo, #venus-text,
-#earth-photo, #earth-text,
-#mars-photo, #mars-text,
-#jupiter-photo, #jupiter-text,
-#saturn-photo, #saturn-text,
-#uranus-photo, #uranus-text,
-#neptune-photo, #neptune-text {
+
+[id$="-photo"]:not(#mercury-photo),
+[id$="-text"]:not(#mercury-text) {
     display: none;
 }
 
-#mercury-photo, #mercury-text {
-    display: block; 
-}
