@@ -7,10 +7,42 @@
         .container {
             display: flex;
         }
-        #first {order: 1;}
-        #second {order: 2;}
-        #third {order: 3;}
-       </style>
+        
+        .img {
+            float: left;
+            margin-right: 30px;
+            width: 100px;
+            height: auto;
+        }
+        footer {
+            background-color: #fff111
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333000;
+            border-top: 1px solid #333000;
+            position: relative;
+        }
+    .footer-left {
+            float: left;
+        }
+        .footer-right {
+            float: right;
+        }
+    .footer-motto {
+            margin-left: 15px;
+            font-style: italic;
+            display: inline-block;
+        }
+    footer::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        img {max-width: 50%;}
+    </style>
+       
 </head>
 <body>
     <img src="../images/laundry3.jpg.webp" alt="washers">
