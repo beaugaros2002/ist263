@@ -25,7 +25,11 @@ nav {
     }
     nav span {display: none;}
 }
-    
+    nav a {
+        width: 100px;
+        padding: 10px o;
+        text-align: left;
+    }
     img {
         width: 100%;
     }
