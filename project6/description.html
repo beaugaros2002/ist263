@@ -5,18 +5,53 @@
     <title>Project Description</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        .container {
+        /* General styling */
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            background-color: #111111;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        /* Navigation styling */
+        nav {
             display: flex;
+            justify-content: center;
+            gap: 15px;
+            background-color: #222;
+            padding: 10px 0;
         }
-        
-        .img {
-            float: left;
-            margin-right: 20px;
-            width: 100px;
-            height: auto;
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
         }
+
+        nav span {
+            color: #555;
+        }
+
+        /* Media Query for Small Screens */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column; /* Stack links vertically */
+                align-items: center;
+            }
+
+            nav span {
+                display: none; /* Remove separators on small screens */
+            }
+        }
+
+        /* Footer styling */
         footer {
-            background-color: #fff111
+            background-color: #fff111;
             padding: 20px;
             text-align: center;
             font-family: Arial, sans-serif;
@@ -26,45 +61,34 @@
             position: relative;
         }
 
-        .footer-left {
+        footer .footer-left {
             float: left;
         }
-        .footer-right {
+
+        footer .footer-right {
             float: right;
         }
-        .footer-motto {
-            margin-left: 15px;
-            font-style: italic;
-            display: inline-block;
-        }
+
         footer::after {
             content: "";
             display: table;
             clear: both;
         }
-        img {max-width: 100%;}
     </style>
-       
 </head>
 <body>
-    
-    
     <nav>
         <a href="description.html">Homepage</a><span>|</span>
         <a href="about.html">About</a><span>|</span>
         <a href="price.html">Price</a>
     </nav>
+
     <img src="../images/laundry3.jpg.webp" alt="washers">
     
-    <div class="images"><img src="../images/laundry3.jpg.webp" alt="images"></div>
-    
     <h1>MoonWash Laundromat</h1>
-    <p>
-        To provide full laundry service to residents in apartments and homes without laundry facilities, Syracuse University students, small businesses like salons, Airbnb hosts, and restaurants needing linen services. Are you thinking of getting your laundry done at a reasonable and competitive price? MoonWash Laundry might be the best place for you to get your laundry done. MoonWash Laundry services are in Syracuse and Liverpool, offering competitive services with new amenities such as free Wi-Fi, comfortable seating, and digital payment options.
-    </p>
-    
-    
-    <h2>Why Choose MoonWash Laundromat?</h2>
+    <p>To provide full laundry service to residents in apartments and homes without laundry facilities, Syracuse University students, small businesses like salons, Airbnb hosts, and restaurants needing linen services. Are you thinking of getting your laundry done at a reasonable and competitive price? MoonWash Laundry might be the best place for you to get your laundry done. MoonWash Laundry services are in Syracuse and Liverpool, offering competitive services with new amenities such as free Wi-Fi, comfortable seating, and digital payment options</p>
+
+    <h2>Why choose Moonwash laundromat?</h2>
     <ul>
         <li>Free high-speed Wi-Fi in and around the facilities</li>
         <li>Clean facilities with games available for kids</li>
@@ -74,17 +98,14 @@
         <li>Vending machines inside the facilities, including water, juices, sodas, and snacks</li>
         <li>Wash and fold service available 24/7 (a minimum order of $20 is required)</li>
     </ul>
+
+    <h3>More information about Moonwash</h3>
+    <p>Creating more laundromats in Syracuse and Liverpool is really important and will benefit both residents and the local economy. The population in the area is expanding, and Syracuse is experiencing high demand in the number of renters, many of whom live in apartments or homes without in-unit laundry facilities. According to census data gathered in 2022, nearly 60% of Syracuse residents are renters. Laundromats are vital for these individuals, offering convenient access to laundry services. Syracuse University, with over 20,000 students, adds to the need for laundromats. Students often reside in dorms or off-campus housing without personal laundry machines, increasing demand for self-service laundromats near the University.</p>
     
-    <h2>More Information about MoonWash</h2>
-    <p>
-        Creating more laundromats in Syracuse and Liverpool is really important and will benefit both residents and the local economy. The population in the area is expanding, and Syracuse is experiencing high demand in the number of renters, many of whom live in apartments or homes without in-unit laundry facilities. According to census data gathered in 2022, nearly 60% of Syracuse residents are renters. Laundromats are vital for these individuals, offering convenient access to laundry services. Syracuse University, with over 20,000 students, adds to the need for laundromats. Students often reside in dorms or off-campus housing without personal laundry machines, increasing demand for self-service laundromats near the University.
-    </p>
     <p><a href="https://www.census.gov/quickfacts/fact/table/syracusecitynewyork/PST040222">Census informantion about Syracuse</a></p>
-    
-    <p>MoonWash, covering Syracuse and Liverpool, New York.</p>
     <footer>
         <span class="footer-left">&copy; 2024</span>
-        <span class="footer-right">"MoonWash is the best laundyr forever." – Kodjo Ettuh</span>
+        <span class="footer-right">"MoonWash is the best laundry forever." – Kodjo Ettuh</span>
     </footer>
 </body>
 </html>
