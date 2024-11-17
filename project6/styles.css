@@ -15,20 +15,21 @@ nav {
 nav {
     margin-bottom: 30px;
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
     nav a {
-        width: 100%;
-        display: block;
+        flex: 1 1 100%; 
+        text-align: center;
+        margin: 5px 0;
     }
- 
-    nav span {display: none;}
-}
+    
+    img {
+        width: 100%;
+    }
 
-nav a {
-            width: 100px;
-            padding: 10px 0;
-            text-align: left;
-      }
+    p, ul {
+        max-width: 95%; 
+    }
+}
       footer {
         background-color: #f1f1f1;
         padding: 10px;
