@@ -4,6 +4,76 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Price</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            background-color: #111111;
+            color: #ffffff;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background-color: #222;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav span {
+            color: #dacdcd;
+        }
+
+        
+        @media only screen and (max-width: 768px) {
+            nav {
+                flex-direction: column; 
+                align-items: center;
+            }
+
+            nav span {
+                display: none; 
+            }
+        }
+
+        
+        footer {
+            background-color: #fff111;
+            padding: 20px;
+            text-align: left;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333000;
+            border-top: 1px solid #333000;
+            position: relative;
+        }
+
+        footer .footer-left {
+            float: left;
+        }
+
+        footer .footer-right {
+            float: right;
+        }
+
+        footer::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
 </head>
 <body>
     <img src="../images/laundry11.jpeg" alt="washers">
